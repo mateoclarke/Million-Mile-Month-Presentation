@@ -159,3 +159,19 @@ video {
   height: 100%;
 }
 
+#chart-js {
+  float: left;
+  margin-left: 70px;
+}
+
+.heroku-logo{
+  height: 200px;
+}
+
+.rk-logo {
+  height: 100%;
+}
+
+.np-logo {
+  height: 80%;
+}
