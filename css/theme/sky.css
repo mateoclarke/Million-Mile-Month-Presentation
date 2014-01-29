@@ -154,3 +154,8 @@ body {
   height: 300px;
   width: 300px;
 }
+
+video {
+  height: 100%;
+}
+
