@@ -23,7 +23,7 @@ body {
 
 .reveal {
   font-family: "Open Sans", sans-serif;
-  font-size: 36px;
+  font-size: 4em;
   font-weight: normal;
   letter-spacing: -0.02em;
   color: #333333; }
@@ -164,17 +164,31 @@ video {
   height: 100%;
 }
 
-#chart-js {
-  float: left;
-  margin-left: 80px;
+.chart-js {
+  float: right;
+  width: 50%;
+  margin-left: 350px;
 }
 
 .chart-js-logo {
   padding-left: 20px;
 }
 
-.heroku-logo{
+.mmf-logo {
+  width: 50%;
   height: 200px;
+  float: left;
+}
+
+.foundation {
+  float: right;
+  width: 50%;
+}
+
+.ajax-jquery {
+  clear: both;
+  float: left;
+  width: 50%;
 }
 
 .rk-logo {
@@ -185,4 +199,27 @@ video {
   height: 80%;
 }
 
+.connect-mmf {
+  width: 75%;
+}
+
+.iphone {
+  -moz-transform:scale(1.5) rotate(90deg);
+  -webkit-transform:scale(1.5) rotate(90deg);
+  -o-transform:scale(1.5) rotate(90deg);
+  -ms-transform:scale(1.5) rotate(90deg);
+  transform:scale(1.5) rotate(90deg);
+}
+.top_row{
+  width: 60%;
+  display: inline-block;
+  border: solid green 2px;
+}
+
+.bottom_row{
+  width: 60%;
+  clear: both;
+  display: inline-block;
+  border: solid green 2px;
+}
 

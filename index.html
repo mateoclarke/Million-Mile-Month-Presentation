@@ -59,34 +59,47 @@
 
 				<!-- Example of nested vertical slides -->
 				<section data-background="#f0f0f0">
-<!-- 					<section>
-						<h2>User Story</h2>
-						<p>Clip of user logging miles after a run?</p>
-					</section> -->
-					<section>
-						<video controls src="MMM.mp4"></video>
-						
-					</section>
+					<video controls loop src="homepage.mov" id="hp"></video>
 				</section>
 
 				<section data-background="#f0f0f0">
-					<h2>Technologies &amp; Obstacles</h2><br>
-					<div style="float: left">
-						<h4>MapMyFitness <br>API</h4>
-						<img src="images/mmf_connect.png">
-					</div>
-					<div id="chart-js">
-						<h4>Chart.js</h4>
-						<img class="chart-js-logo" src="images/chart.png">
-					</div>
-					<div style="float: right">
-						<h4>Heroku</h4>
-						<img class="heroku-logo" src="images/heroku-logo.png">
+					<video controls src="mmf.mp4" class="strech"></video>					
+				</section>
+
+				<section data-background="#f0f0f0">
+					<video controls  src="log-activity-1.mov" class="strech"></video>					
+				</section>				
+
+				<section data-background="#f0f0f0">
+					<video controls loop src="groups.mov" class="strech"></video>					
+				</section>
+
+				<section data-background="#f0f0f0">
+					<h2>Accomplishments</h2><br>	
+					<div class="top_row">				
+						<div class="mmf-logo">
+							<h4>MapMyFitness <br>API</h4>
+							<img class="connect-mmf" src="images/mmf_connect.png" style="margin-top: 60px">
+						</div>
+						<div class="chart-js">
+							<h4>Chart.js</h4>
+							<img class="chart-js-logo" src="images/chart.png">
+						</div>
+					</div><br>
+					<div class="bottom_row">
+						<div class="ajax-jquery">
+							<h4>Seamless UX</h4>
+							<img src="images/ajax-jquery-logos.png">
+						</div>
+						<div class="foundation">
+							<h4>Mobile Ready</h4>
+							<img src="images/foundation-5.png">
+						</div>
 					</div>
 				</section>
 
 				<section data-background="#f0f0f0">
-					<h2>Next Steps</h2>
+					<h2>Next Steps</h2><br>
 					<ul>
 						<li>Leaderboard</li><br>
 						<li> Badges &amp; Rewards</li><br>
@@ -114,7 +127,11 @@
 
 			// Full list of configuration options available here:
 			// https://github.com/hakimel/reveal.js#configuration
+
+
 			Reveal.initialize({
+				width: 1900,
+				height: 1080,
 				controls: true,
 				progress: true,
 				history: true,
@@ -137,6 +154,12 @@
 					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
 				]
 			});
+			
+			// Reveal.configure({
+			// 	keyboard: {
+			// 		77: document.getElementById('hp').play()
+			// 	}
+			// });
 
 		</script>
 
